@@ -1,0 +1,10 @@
+git-diff - Show changes between commits, commit and working tree, etc
+git diff <commit_name> show diff between HEAD and <commit_name>
+
+Причем сравнение идет слева направо. Т.Е.
+git diff 24234fsfsf 
+Покажет то, что появилось HEAD по сравнению с 24234fsfsf
+Т.е. пистаь надо 
+git diff commit1 commit2 - что появилось нового в коммите 2, относительно коммита 1!
+git diff commit1 commit2 --name-status - покажет имена изменных файлов и буковка А(add) и M(modify) напротив них
+
