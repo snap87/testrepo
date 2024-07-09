@@ -1,0 +1,8 @@
+kubectl get daemonsets speaker -n metallb-system -oyaml 
+-7472 наружный порт спикера
+
+
+kubectl -nmetallb-system get cm config -oyaml
+10.0.21.100-10.0.21.200 for dev
+
+идет проброс с внешнего ип из диапазона конфига на сервис типа лоад балансер, которому тоже в настройкха задан определенный внешний ip
