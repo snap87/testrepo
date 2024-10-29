@@ -9,7 +9,7 @@ git submodule add <нужный сабмодуль>
 git submodule status --cached
 покажет на какой коммит ссылается основной репо
 
-git clone --recurse-submodules -j8 <repo> - клонировать с сабмодулями
+git clone --recurse-submodules -j8 <repo> - клонировать с сабмодулями в 8 потоков
 
 Если вы впервые извлекаете репозиторий, вам нужно использовать --init первый:
 
